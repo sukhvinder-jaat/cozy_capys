@@ -15,16 +15,10 @@ export const RoadMap = () => {
           <img src={roadmap_left} alt="img" />
         </div>
         <div className="position-absolute roadTree d-sm-block d-none">
-          <img
-            src={tree}
-            alt="tree"
-            className="w-100 position-relative z-1"
-            data-aos="fade-right"
-          />
+          <img src={tree} alt="tree" className="w-100 position-relative z-1" />
         </div>
-
         <img src={cut} alt="cut" className="w-100 position-absolute faqCut" />
-        <div class="container py-sm-5 pt-2 pb-5">
+        <div class="container py-sm-5 pt-2 pb-5" data-aos="fade-right">
           <h1 class="mainHeading ff_bomb_one text-white fw-normal">Roadmap</h1>
           <p class=" ff_sans text-white fw-normal fs_md main_para">
             Nam duis feugiat tellus metus arcu pharetra arcu. Sed ultrices
@@ -33,9 +27,9 @@ export const RoadMap = () => {
               urna interdum. Maecenas neque augue mattis.
             </span>
           </p>
-          <div id="small_card" data-aos="fade-up-right">
+          <div id="small_card">
             <div class="row">
-              <div class="col-xl-7 col-lg-6">
+              <div class="col-xl-7 col-lg-6" data-aos="fade-right">
                 <div class="roadmapCard d-flex justify-content-between">
                   <div class="d-flex flex-column justify-content-between">
                     <p class=" ff_sans fs_2x8l fw-bold text-white">Phase</p>
@@ -58,7 +52,7 @@ export const RoadMap = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-6 mt-4 mt-lg-0">
+              <div class="col-xl-5 col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
                 <div class="roadmapCard h-100">
                   <div class="row h-100">
                     <div class="col-6 d-flex flex-column justify-content-between">
@@ -83,7 +77,7 @@ export const RoadMap = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-6 mt-4">
+              <div class="col-xl-5 col-lg-6 mt-4" data-aos="fade-right">
                 <div class="roadmapCard d-flex justify-content-between">
                   <div class="d-flex flex-column justify-content-between">
                     <p class="ff_sans fs_2x8l fw-bold text-white">Phase</p>
@@ -106,7 +100,7 @@ export const RoadMap = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-7 col-lg-6 mt-4">
+              <div class="col-xl-7 col-lg-6 mt-4" data-aos="fade-left">
                 <div class="roadmapCard d-flex justify-content-between">
                   <div class="d-flex flex-column justify-content-between">
                     <p class="ff_sans fs_2x8l fw-bold text-white">Phase</p>
