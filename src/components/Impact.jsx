@@ -12,7 +12,8 @@ export const Impact = () => {
         <img
           src={sideRanbow}
           alt="sideRanbow"
-          className="w-100 h-100 pe-none"
+          className="w-100 h-100 pe-none "
+          data-aos="fade-left"
         />
       </div>
       <img
@@ -30,15 +31,22 @@ export const Impact = () => {
       <img
         src={impactTree}
         alt="impactTree"
+        data-aos="fade-left"
         className="w-100 position-absolute end-0 imapctTree pe-none d-sm-block d-none"
       />
       <Container className="py-lg-5 pt-sm-5 my-xl-5 mt-3 position-relative z-2">
         <Row className=" align-items-center flex-lg-row flex-column-reverse">
           <Col lg={6} xs={12}>
-            <p className="text-white ff_bomb_one fs_6xl fw-normal impactShadow mb-0 text-center text-lg-start pt-lg-0 pt-4">
+            <p
+              className="text-white ff_bomb_one fs_6xl fw-normal impactShadow mb-0 text-center text-lg-start pt-lg-0 pt-4"
+              data-aos="fade-down-right"
+            >
               Impact
             </p>
-            <p className=" clr_black0D ff_sans fs_md fw-normal pt-lg-4 pt-md-3 text-center text-lg-start">
+            <p
+              className=" clr_black0D ff_sans fs_md fw-normal pt-lg-4 pt-md-3 text-center text-lg-start"
+              data-aos="fade-down-right"
+            >
               Cozy Capys, an NFT project centered around adorable capybara
               characters, aims to create a positive social impact. It achieves
               this through initiatives such as donating 10% of proceeds to
@@ -57,7 +65,7 @@ export const Impact = () => {
           </Col>
           <Col xl={1} className=" d-none d-xl-block"></Col>
           <Col xl={5} md={6} xs={11}>
-            <div className="gifImg position-relative z-2">
+            <div className="gifImg position-relative z-2" data-aos="fade-left">
               <img src={gifImg} alt="gifImg" className="w-100" />
             </div>
           </Col>

@@ -15,7 +15,12 @@ export const RoadMap = () => {
           <img src={roadmap_left} alt="img" />
         </div>
         <div className="position-absolute roadTree d-sm-block d-none">
-          <img src={tree} alt="tree" className="w-100 position-relative z-1" />
+          <img
+            src={tree}
+            alt="tree"
+            className="w-100 position-relative z-1"
+            data-aos="fade-right"
+          />
         </div>
 
         <img src={cut} alt="cut" className="w-100 position-absolute faqCut" />
@@ -28,7 +33,7 @@ export const RoadMap = () => {
               urna interdum. Maecenas neque augue mattis.
             </span>
           </p>
-          <div id="small_card">
+          <div id="small_card" data-aos="fade-up-right">
             <div class="row">
               <div class="col-xl-7 col-lg-6">
                 <div class="roadmapCard d-flex justify-content-between">

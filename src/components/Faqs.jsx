@@ -9,7 +9,7 @@ export const Faqs = () => {
             FAQ’s
           </h2>
           <Accordion className="mt-md-5 mt-4">
-            <Accordion.Item eventKey="0">
+            <Accordion.Item eventKey="0" data-aos="fade-down">
               <Accordion.Header>Q1. What is Cozy Capys?</Accordion.Header>
               <Accordion.Body>
                 <p className="ff_sans fw-normal fs_md clr_black0D opacity_07 mb-0">
@@ -19,7 +19,7 @@ export const Faqs = () => {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
+            <Accordion.Item eventKey="1" data-aos="fade-down">
               <Accordion.Header>
                 Q2. How does Cozy Capys give back to wildlife conservation?
               </Accordion.Header>
@@ -31,7 +31,7 @@ export const Faqs = () => {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2">
+            <Accordion.Item eventKey="2" data-aos="fade-down">
               <Accordion.Header>
                 Q3. What kind of community events does Cozy Capys host?
               </Accordion.Header>
@@ -43,7 +43,7 @@ export const Faqs = () => {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="3">
+            <Accordion.Item eventKey="3" data-aos="fade-down">
               <Accordion.Header>
                 Q4. How can I stay updated on Cozy Capys news and announcements?
               </Accordion.Header>
@@ -55,7 +55,7 @@ export const Faqs = () => {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="4">
+            <Accordion.Item eventKey="4" data-aos="fade-down">
               <Accordion.Header>
                 Q5. How can I adopt my Cozy Capy?
               </Accordion.Header>

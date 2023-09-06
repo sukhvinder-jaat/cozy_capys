@@ -11,7 +11,7 @@ const MyFooter = () => {
     <>
       <section className="bg_orangeFC position-relative">
         <div className="bgFooter pt-sm-5">
-          <div className="container pt-sm-5">
+          <div className="container pt-sm-5" data-aos="fade-down">
             <a href="#">
               <div className="d-flex justify-content-center align-items-center pt-5">
                 <img
@@ -93,6 +93,7 @@ const MyFooter = () => {
             src={footerLeft}
             alt="footer image left"
             className="footerLogo"
+            data-aos="fade-right"
           />
         </div>
         <div className="position-absolute end-0 bottom-0 d-sm-block d-none">
@@ -100,6 +101,7 @@ const MyFooter = () => {
             src={footerRight}
             alt="footer image right"
             className="footerLogo d-md-block d-none"
+            data-aos="fade-left"
           />
         </div>
       </section>

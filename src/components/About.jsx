@@ -15,6 +15,7 @@ export const About = () => {
         src={aboutTree}
         alt="aboutTree"
         className="aboutTree position-absolute d-sm-block d-none w-100 pe-none"
+        data-aos="zoom-out"
       />
       <img
         src={shadow}
@@ -23,10 +24,16 @@ export const About = () => {
       />
       <Container className="position-relative sleppingPanda">
         <div className="cloudBg py-lg-5 py-3 px-lg-0 px-3 d-flex flex-column align-items-center position-relative z-2">
-          <p className=" clr_pinkDC text-center ff_bomb_one fs_6xl fw-normal pinkShadow mb-0 pt-lg-5">
+          <p
+            className=" clr_pinkDC text-center ff_bomb_one fs_6xl fw-normal pinkShadow mb-0 pt-lg-5"
+            data-aos="zoom-in-right"
+          >
             About Us
           </p>
-          <p className="opacity07 clr_black0D text-center ff_sans fs_md fw-normal mx707 mb-lg-5 pt-lg-4 pt-md-3 pb-lg-5">
+          <p
+            className="opacity07 clr_black0D text-center ff_sans fs_md fw-normal mx707 mb-lg-5 pt-lg-4 pt-md-3 pb-lg-5"
+            data-aos="zoom-in-left"
+          >
             <span className="d-sm-block">
               Cozy Capys is an impactful NFT project featuring 10,000
             </span>
