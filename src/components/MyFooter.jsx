@@ -7,6 +7,8 @@ import footerLeft from "../assets/img/webp/footerLeft.webp";
 import footerRight from "../assets/img/webp/footerRight.webp";
 
 const MyFooter = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <>
       <section className="bg_orangeFC position-relative">
@@ -84,7 +86,7 @@ const MyFooter = () => {
           <div className="footerLine"></div>
           <div className="py-4 text-center">
             <p className="ff_sans fs_xsm fw-normal color_black mb-0 opacity_07">
-              Copyright ©2022 All rights reserved Plump Kittens
+              Copyright ©{year} All rights reserved Plump Kittens
             </p>
           </div>
         </div>
