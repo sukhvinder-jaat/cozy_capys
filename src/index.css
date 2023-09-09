@@ -744,7 +744,7 @@
     bottom: -2%;
   }
 }
-@media (min-width: 1440.98px) {
+@media (min-width: 1439.98px) {
   .container {
     max-width: 1140px !important;
   }
